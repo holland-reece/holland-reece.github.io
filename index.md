@@ -1,5 +1,5 @@
 ---
-title: Holland Brown
+title: Holland Reece Brown
 layout: default
 ---
 
