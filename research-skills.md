@@ -10,7 +10,7 @@ layout: default
 
 - Building on code developed by other research groups, I developed a [preprocessing pipeline](https://github.com/holland-reece/SE-fMRI-Pipeline-magnitude-fieldmaps) for human brain imaging data, incorporating machine learning-based denoising tools to clarify images and understand how different clinical populations' brain scans change over time.
 
-- In a cross-institutional colaboration, I applied my experience with human health data to develop analysis scripts for a study in zebrafish larvae.
+- In a cross-institutional collaboration, I applied my experience with human health data to develop analysis scripts for a study in zebrafish larvae.
 > Velez-Angel, 2024, [*bioRxiv*](https://doi.org/10.1101/2025.02.07.637118)
 <br>
 
