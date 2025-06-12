@@ -23,8 +23,8 @@ layout: default
 
 ## Applying explainable AI methods to publicly available datasets
 - Demonstration: fitting deep learning models on the MNIST publicly available dataset
-    - Changing the number of network layers or epochs, or using a different optimizer such as Adam, are all methods to better fit a network to a dataset.
-```
+
+```python
 model_tiny.summary()
 
 loss_fn = tf.keras.losses.CategoricalCrossentropy(
