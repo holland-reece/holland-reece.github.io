@@ -16,13 +16,12 @@ layout: default
 
 ---
 
-## Cutting-edge deep learning techniques for creative solutions to research problems
+## Explainable AI
 - In a cross-functional team, I helped train a variational autoencoder deep learning model to better understand visual processing in people with schizophrenia. Using brain images as input, the model created feature maps it used to reconstruct photographs study participants viewed during the brain scan.
 
 <img src="images/vae.png" alt="VAE" width="400">
 
-## Applying explainable AI methods to publicly available datasets
-- Project for ML master's course: fitting deep learning models on the MNIST publicly available dataset
+- Fitting deep learning models on the MNIST publicly available dataset (ML master's course project)
     - I demonstrate tuning model parameters (number and type of network layers, number of epochs, learning rate and type of optimizer) to fit a neural network, then evaluate the model's performance. See my process for fine-tuning this network in this [GitHub repo](https://github.com/holland-reece/neural-network-fitting-demo).
 
 ```python
