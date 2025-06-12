@@ -22,7 +22,8 @@ layout: default
 <img src="images/vae.png" alt="VAE" width="400">
 
 ## Applying explainable AI methods to publicly available datasets
-- Demonstration: fitting deep learning models on the MNIST publicly available dataset
+- Project for ML master's course: fitting deep learning models on the MNIST publicly available dataset
+    - I demonstrate tuning model parameters (number and type of network layers, number of epochs, learning rate and type of optimizer) to fit a neural network, then evaluate the model's performance. See my process for fine-tuning this network in this [GitHub repo](https://github.com/holland-reece/neural-network-fitting-demo).
 
 ```python
 model_tiny.summary()
