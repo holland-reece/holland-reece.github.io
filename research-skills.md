@@ -5,31 +5,22 @@ layout: default
 
 
 # Research Skills
-## Analyzing high-dimensional, multi-modal health datasets for psychiatric treatment studies
+## Analyzing high-dimensional, multi-modal data in healthcare and clinical research
 - As a computational research assistant, I analyzed high-dimensional datasets of brain images, cognitive tests and psychiatric evaluations to inform therapeutic development for psychiatric disorders.
 
-- Here is an example of a single measure (one brain scan) in which each voxel corresponds to a spatial location in the brain and each cell represents the signal in a voxel over every frame of the scan.
+- I helped develop a [preprocessing pipeline](https://github.com/holland-reece/SE-fMRI-Pipeline-magnitude-fieldmaps) for human brain imaging data, incorporating machine learning-based denoising tools to clarify images and identify patterns of change over time.
 
-> |          | Frame_1 | Frame_2 | ⋯   | Frame_m |
-> |----------|--------|--------|-----|--------|
-> | Voxel_1   |   ⋯    |   ⋯    | ⋯   |   ⋯    |
-> | Voxel_2   |   ⋯    |   ⋯    | ⋯   |   ⋯    |
-> | ⋯        |   ⋯    |   ⋯    | ⋯   |   ⋯    |
-> | Voxel_n   |   ⋯    |   ⋯    |  ⋯   |   ⋯    |
+- I used mixed-effects linear models for repeated measures (mmrm) to quantify differences between clinical and non-clinical groups over several brain scans in randomized control trials for late-life depression and adolescent anxiety.
 
-- I helped develop a [preprocessing pipeline](https://github.com/holland-reece/SE-fMRI-Pipeline-magnitude-fieldmaps) for human brain imaging data, incorporating machine learning-based tools such as Tedana to identify noise and separate it from signal to sharpen images and identify relevant changes over time.
+- In graduate courses, I applied deep learning techniques to videos of colonoscopies to segment potentially cancerous pollops.
 
-- I then used mixed-effects linear models for repeated measures (mmrm) to quantify differences between clinical and non-clinical groups over several brain scans in randomized control trials for late-life depression and adolescent anxiety.
-
-- In a cross-institutional colaboration, I helped develop analysis scripts for a brain imaging study in zebrafish larvae.
-
+- In a cross-institutional colaboration, I applied my experience with human health data to develop analysis scripts for a study in zebrafish larvae.
 > Velez-Angel, 2024, [*bioRxiv*](https://doi.org/10.1101/2025.02.07.637118)
 <br>
 
 ---
 
-## Applying Explainable AI Methods to Publicly Available Datasets
-
+## Applying explainable AI methods to publicly available datasets
 - Fitting deep learning models commonly used to analyze large datasets of medical images
 
 - Experimentation with training techniques
