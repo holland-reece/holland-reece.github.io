@@ -21,8 +21,10 @@ layout: default
 
 <img src="images/vae.png" alt="VAE" width="400">
 
+<img src="images/vae_results.png" alt="VAE" width="600">
+
 - Fitting deep learning models on the MNIST publicly available dataset (ML master's course project)
-    - I demonstrate tuning model parameters (number and type of network layers, number of epochs, learning rate and type of optimizer) to fit a neural network, then evaluate the model's performance. See my [process](https://github.com/holland-reece/neural-network-fitting-demo) for fine-tuning this network.
+    - I demonstrate [tuning model parameters](https://github.com/holland-reece/neural-network-fitting-demo) (number and type of network layers, number of epochs, learning rate and type of optimizer) to fit a neural network, then evaluate and compare model performance.
 
 ```python
 model.summary()
@@ -47,6 +49,6 @@ model.evaluate(x_test,y_test_onehot,verbose=2)
 
 ### I apply my experience with a wide range of machine learning methods to efficiently select the best model for a research question, fit the model to a dataset and provide actionable insights.
 
-- Comparison of [lasso and ridge regression techniques](https://github.com/holland-reece/ridge-vs-lasso-reg) using k-fold cross validation and forward feature selection
+- I compared [lasso and ridge regression techniques](https://github.com/holland-reece/ridge-vs-lasso-reg) using k-fold cross validation and forward feature selection with the MNIST dataset.
 
-- Classification of MNIST data using a [logistic regression classifier](https://github.com/holland-reece/logreg-classifier-MNIST-demo)
+- I performed a classification of MNIST data using a [logistic regression classifier](https://github.com/holland-reece/logreg-classifier-MNIST-demo).
