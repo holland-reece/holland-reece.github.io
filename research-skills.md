@@ -19,8 +19,6 @@ layout: default
 ## Explainable AI
 - In a cross-functional team, I helped train a variational autoencoder deep learning model to better understand visual processing in people with schizophrenia. Using brain images as input, the model created feature maps it used to reconstruct photographs study participants viewed during the brain scan.
 
-<img src="images/vae.png" alt="VAE" width="400">
-
 <img src="images/vae_results.png" alt="VAE" width="600">
 
 - Fitting deep learning models on the MNIST publicly available dataset (ML master's course project)
