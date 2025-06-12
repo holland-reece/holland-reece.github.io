@@ -5,8 +5,8 @@ layout: default
 
 
 # Research Skills
-## Analysis of high-dimensional, multi-modal datasets
-- As a research assistant, I analyzed high-dimensional brain imaging datasets comprised of image time series with repeated measures for clinical and non-clinical groups.
+## Analyzing high-dimensional, multi-modal health datasets for psychiatric treatment studies
+- As a computational research assistant, I analyzed high-dimensional datasets of brain images, cognitive tests and psychiatric evaluations to inform therapeutic development for psychiatric disorders.
 
 - Here is an example of a single measure (one brain scan) in which each voxel corresponds to a spatial location in the brain and each cell represents the signal in a voxel over every frame of the scan.
 
@@ -28,7 +28,7 @@ layout: default
 
 ---
 
-## Applying Explainable AI Methods to Real-World and Publicly Available Datasets
+## Applying Explainable AI Methods to Publicly Available Datasets
 
 - Fitting deep learning models commonly used to analyze large datasets of medical images
 
