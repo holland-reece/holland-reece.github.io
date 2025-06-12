@@ -47,6 +47,4 @@ model.evaluate(x_test,y_test_onehot,verbose=2)
 
 ### I apply my experience with a wide range of machine learning methods to efficiently select the best model for a research question, fit the model to a dataset and provide actionable insights.
 
-- I compared [lasso and ridge regression techniques](https://github.com/holland-reece/ridge-vs-lasso-reg) using k-fold cross validation and forward feature selection with the MNIST dataset.
-
-- I performed a classification of MNIST data using a [logistic regression classifier](https://github.com/holland-reece/logreg-classifier-MNIST-demo).
+- I compared [lasso and ridge regression techniques](https://github.com/holland-reece/ridge-vs-lasso-reg) using k-fold cross validation and forward feature selection performed a classification of MNIST data using a [logistic regression classifier](https://github.com/holland-reece/logreg-classifier-MNIST-demo).
