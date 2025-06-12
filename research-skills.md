@@ -22,26 +22,27 @@ layout: default
 <img src="images/vae.png" alt="VAE" width="400">
 
 - Fitting deep learning models on the MNIST publicly available dataset (ML master's course project)
-    - I demonstrate tuning model parameters (number and type of network layers, number of epochs, learning rate and type of optimizer) to fit a neural network, then evaluate the model's performance. See my process for fine-tuning this network in this [GitHub repo](https://github.com/holland-reece/neural-network-fitting-demo).
+    - I demonstrate tuning model parameters (number and type of network layers, number of epochs, learning rate and type of optimizer) to fit a neural network, then evaluate the model's performance. See my [process](https://github.com/holland-reece/neural-network-fitting-demo) for fine-tuning this network.
 
 ```python
-model_tiny.summary()
+model.summary()
 
+# define loss function
 loss_fn = tf.keras.losses.CategoricalCrossentropy(
     from_logits=True, name='categorical_crossentropy')
 
 # define optimizer,loss function and evaluation metric
 optimizer = tf.keras.optimizers.Adam(lr = 0.1) # change learning rate
-model_tiny.compile(optimizer=optimizer,
+model.compile(optimizer=optimizer,
              loss=loss_fn,
              metrics=['accuracy'])
 
 # train the model
-model_tiny.fit(x_train_small, y_train_small_onehot,epochs=5)
+model.fit(x_train_small, y_train_small_onehot,epochs=5)
 
 # evaluate model
 y_test_onehot = to_categorical(y_test)
-model_tiny.evaluate(x_test,y_test_onehot,verbose=2)
+model.evaluate(x_test,y_test_onehot,verbose=2)
 ```
 
 ### I apply my experience with a wide range of machine learning methods to efficiently select the best model for a research question, fit the model to a dataset and provide actionable insights.
