@@ -16,5 +16,6 @@ I am a detail-oriented data scientist with expertise in **_inferential statistic
 - January 2024 - May 2024
 
 <img src="images/briefcase.jpg" alt="Work" width="25"> Computational Research Assistant
+**Preprocesing and analysis of high-dimensional multi-modal datasets of brain images, clinical evaluations and cognitive test results to inform therapeutic development**
 - Weill Cornell Medicine, Institute for Developmental Psychobiology, New York, NY
 - January 2023 - June 2024
