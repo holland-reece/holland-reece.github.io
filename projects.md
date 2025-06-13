@@ -57,7 +57,7 @@ fpr, tpr, thresholds = metrics.roc_curve(y_test, pred, pos_label=1)
 print(f"False Positive Rates (Specificity): {fpr}\nTrue Positive Rates (Sensitivity): {tpr}\nThresholds: {thresholds}\n")
 print(f"Area Under ROC Curve: {roc_auc_score(y_test, prob[:,1], multi_class='ovr')}\n")
 
-# Based on the area under the ROC curve, the optimal value for lambda = 1.
+# Based on the area under the ROC curve in this example, the optimal value for lambda = 1.
      
 # Plot confusion matrix to visualize model performance on test set
 cm = metrics.confusion_matrix(y_test, pred)
@@ -76,5 +76,5 @@ width, height = cm.shape
 for x in range(width):
     for y in range(height):
         plt.annotate(str(cm[x][y]), xy=(y, x), horizontalalignment='center', verticalalignment='center')
-plt.savefig('confusionmat.png')
+plt.savefig(f'confusionmat.png')
 ```
