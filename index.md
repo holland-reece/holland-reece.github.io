@@ -4,7 +4,7 @@ layout: default
 ---
 
 # Professional Summary
-I am a data scientist with expertise in **_inferential statistics, time-series analysis, and explainable AI for actionable data-driven insights._** My experience includes analyzing high dimensional, multimodal datasets from medical imaging and studies of human behavior, predicting clinical outcomes in randomized control trials using Bayesian statistical models, and translating findings into clear, actionable insights for both technical and non-technical audiences.
+I am a detail-oriented data scientist with expertise in **_inferential statistics, applied AI, and computer vision for data-driven insights_**. My experience includes analyzing high dimensional, multimodal datasets from medical imaging and studies of human behavior, modeling clinical outcomes in randomized control trials using Bayesian statistical methods, and translating findings into clear, actionable insights for both technical and non-technical audiences.
 
 ## Career Highlights
 <img src="images/grad-cap.png" alt="School" width="25"> Bachelor of Science in Computational Methods and Cognitive Science, *magna cum laude*
