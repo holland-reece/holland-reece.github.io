@@ -48,3 +48,33 @@ model.evaluate(x_test,y_test_onehot,verbose=2)
 ### I choose the best model for a dataset, fit it, fine-tune it, and validate it to solve data science problems effectively and efficiently.
 
 - I compared [lasso and ridge regression techniques](https://github.com/holland-reece/ridge-vs-lasso-reg) using k-fold cross validation and forward feature selection performed a classification of MNIST data using a [logistic regression classifier](https://github.com/holland-reece/logreg-classifier-MNIST-demo).
+    - I used area under the ROC curve and confusion matrices to understand the performance of each model.
+
+```python
+
+# Use ROC curve to test best threshold for lambda
+fpr, tpr, thresholds = metrics.roc_curve(y_test, pred, pos_label=1)
+print(f"False Positive Rates (Specificity): {fpr}\nTrue Positive Rates (Sensitivity): {tpr}\nThresholds: {thresholds}\n")
+print(f"Area Under ROC Curve: {roc_auc_score(y_test, prob[:,1], multi_class='ovr')}\n")
+
+# Based on the area under the ROC curve, the optimal value for lambda = 1.
+     
+# Plot confusion matrix to visualize model performance on test set
+cm = metrics.confusion_matrix(y_test, pred)
+plt.figure(figsize=(5,5))
+plt.imshow(cm, interpolation='nearest', cmap='BuGn')
+plt.title('Confusion matrix', size = 15)
+plt.colorbar()
+tick_marks = np.arange(2)
+plt.xticks(tick_marks, ["0", "1"], rotation=45, size = 10)
+plt.yticks(tick_marks, ["0", "1"], size = 10)
+plt.tight_layout()
+plt.ylabel('Actual label', size = 15)
+plt.xlabel('Predicted label', size = 15)
+width, height = cm.shape
+
+for x in range(width):
+    for y in range(height):
+        plt.annotate(str(cm[x][y]), xy=(y, x), horizontalalignment='center', verticalalignment='center')
+plt.savefig('confusionmat.png')
+```
