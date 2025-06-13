@@ -5,7 +5,7 @@ description: >
   <p>Professional Website & Data Science Portfolio</p>
   <p>
     <a href="index.html" class="btn">Home</a>
-    <a href="research-skills.html" class="btn">Research Skills</a>
+    <a href="projects.html" class="btn">Selected Projects</a>
     <a href="technical-skills.html" class="btn">Technical Skills</a>
     <a href="https://github.com/holland-reece" class="btn">GitHub</a>
     <a href="https://www.linkedin.com/in/holland-reece-brown-9bb719263" class="btn">LinkedIn</a>   

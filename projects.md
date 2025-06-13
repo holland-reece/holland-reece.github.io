@@ -4,7 +4,7 @@ layout: default
 ---
 
 
-# Research Skills
+# Selected Projects
 ## Analyzing high-dimensional, multi-modal data in healthcare and clinical research
 - As a computational research assistant, I analyzed high-dimensional datasets of brain images, cognitive tests and psychiatric evaluations to inform therapeutic development for psychiatric disorders.
 
