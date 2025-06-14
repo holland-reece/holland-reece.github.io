@@ -4,7 +4,7 @@ layout: default
 ---
 
 
-# Data Science Skills
+# Data Science Portfolio
 ## Evaluation and Validation: Selecting the Right Tools and Models to Solve Data Science Problems
 **As a computational research assistant and in machine learning courses, I used validation methods and my knowledge of published academic work to find and test new computational methods and open-source tools.**
 
