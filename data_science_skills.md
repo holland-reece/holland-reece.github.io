@@ -5,10 +5,10 @@ layout: default
 
 
 # Data Science Portfolio
-## Evaluation and Validation: Selecting the Right Tools and Models to Solve Data Science Problems
-**As a computational research assistant and in machine learning courses, I used validation methods and my knowledge of published academic work to find and test new computational methods and open-source tools.**
+## Building on cutting-edge open source tools
+**As a computational research assistant and in machine learning courses, I used validation methods and my knowledge of published academic work to select the best computational methods and open-source tools for every dataset and question.**
 
-- Building on several published open-source image analysis tools, I developed a [preprocessing pipeline](https://github.com/holland-reece/SE-fMRI-Pipeline-magnitude-fieldmaps) for human brain imaging data, incorporating machine learning-based denoising tools to best suit my team's dataset and understand how different clinical populations' brain scans change over time.
+- Building on several published open-source image analysis tools, I developed a [preprocessing pipeline](https://github.com/holland-reece/SE-fMRI-Pipeline-magnitude-fieldmaps) for human brain imaging data, incorporating machine learning-based denoising tools to best suit my team's dataset.
 
 - In a machine learning course, I compared [lasso and ridge regression techniques](https://github.com/holland-reece/ridge-vs-lasso-reg) using k-fold cross validation and forward feature selection using a publicly available dataset. I used area under the ROC curve and confusion matrices to understand the performance of each model.
 
@@ -44,13 +44,19 @@ plt.savefig(f'confusionmat.png')
 
 ---
 
-## Big Data: Retreiving, Preprocessing, and Analyzing High-Dimensional Multimodal Data
-**I have worked with large multimodal datasets spanning brain images, natural language in audio and text formats, videos of colonoscopies, EEG recording time series, and Swedish population health records. Here are a few examples showcasing my versatility as a data scientist.**
+## Sophisticated AI solutions for unique data science problems
+
+<br>
+
+---
+
+## Big Data: Experience with a wide range of data modalities and structures
+**I have worked with large multimodal datasets spanning brain images, natural language in audio and text formats, videos of colonoscopies, EEG recording time series, health records and Swedish population registry data. Here are a few examples showcasing my versatility as a data scientist.**
 
 - As a data analysis research assistant in Stockholm, Sweden, I wrote scripts to retreive, organize and analyze health records from the Swedish Population Registry to identify predictors of responsiveness to psychiatric treatments.
 **_(Language: R, Data structure: data trees in XML files, Primary method: mixed-effects linear regression for repeated measures)_**
 
-- I provided a consult in a cross-institutional collaboration and applied my experience with human health data to develop analysis scripts (in Python) for a study in zebrafish larvae.
+- I provided a consult in a cross-institutional collaboration and applied my experience with human health data to develop analysis scripts for a study in zebrafish larvae.
 **_(Languages: Python and Matlab, Data structure: videos in TIFF files)_**
 > Velez-Angel, 2024, [*bioRxiv*](https://doi.org/10.1101/2025.02.07.637118)
 
@@ -83,7 +89,4 @@ model.fit(x_train_small, y_train_small_onehot,epochs=5)
 y_test_onehot = to_categorical(y_test)
 model.evaluate(x_test,y_test_onehot,verbose=2)
 ```
-
-### I choose the best model for a dataset, fit it, fine-tune it, and validate it to solve data science problems effectively and efficiently.
-
 
