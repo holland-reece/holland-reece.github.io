@@ -6,7 +6,7 @@ layout: default
 
 # Data Science Portfolio
 ## Building on cutting-edge open source tools
-**As a computational research assistant and in machine learning courses, I used validation methods and my knowledge of published academic work to select the best computational methods and open-source tools for every dataset and question.**
+**As a computational research assistant and in machine learning courses, I used validation methods and my knowledge of published academic work to select the best computational methods and open source tools for every dataset and question.**
 
 - Building on several published open-source image analysis tools, I developed a [preprocessing pipeline](https://github.com/holland-reece/SE-fMRI-Pipeline-magnitude-fieldmaps) for human brain imaging data, incorporating machine learning-based denoising tools to best suit my team's dataset.
 
@@ -46,20 +46,6 @@ plt.savefig(f'confusionmat.png')
 
 ## Sophisticated AI solutions for unique data science problems
 
-<br>
-
----
-
-## Big Data: Experience with a wide range of data modalities and structures
-**I have worked with large multimodal datasets spanning brain images, natural language in audio and text formats, videos of colonoscopies, EEG recording time series, health records and Swedish population registry data. Here are a few examples showcasing my versatility as a data scientist.**
-
-- As a data analysis research assistant in Stockholm, Sweden, I wrote scripts to retreive, organize and analyze health records from the Swedish Population Registry to identify predictors of responsiveness to psychiatric treatments.
-**_(Language: R, Data structure: data trees in XML files, Primary method: mixed-effects linear regression for repeated measures)_**
-
-- I provided a consult in a cross-institutional collaboration and applied my experience with human health data to develop analysis scripts for a study in zebrafish larvae.
-**_(Languages: Python and Matlab, Data structure: videos in TIFF files)_**
-> Velez-Angel, 2024, [*bioRxiv*](https://doi.org/10.1101/2025.02.07.637118)
-
 - In a cross-functional team of psychiatrists, psychologists and engineers, I helped adapt and train an open-source variational autoencoder deep learning model to better understand visual processing in people with schizophrenia. Using brain scans as input, the model created feature maps it used to reconstruct photographs study participants viewed during the brain scan.
 **_(Languages: Python and Matlab, Data structure: 3D brain scans in NIfTI files, numpy arrays and pandas dataframes)_**
 
@@ -90,3 +76,17 @@ y_test_onehot = to_categorical(y_test)
 model.evaluate(x_test,y_test_onehot,verbose=2)
 ```
 
+
+<br>
+
+---
+
+## Big Data: Experience with a wide range of data modalities and structures
+**I have worked with large multimodal datasets spanning brain images, natural language in audio and text formats, videos of colonoscopies, EEG recording time series, health records and Swedish population registry data. Here are a few examples showcasing my versatility as a data scientist.**
+
+- As a data analysis research assistant in Stockholm, Sweden, I wrote scripts to retreive, organize and analyze health records from the Swedish Population Registry to identify predictors of responsiveness to psychiatric treatments.
+**_(Language: R, Data structure: data trees in XML files, Primary method: mixed-effects linear regression for repeated measures)_**
+
+- I provided a consult in a cross-institutional collaboration and applied my experience with human health data to develop analysis scripts for a study in zebrafish larvae.
+**_(Languages: Python and Matlab, Data structure: videos in TIFF files)_**
+> Velez-Angel, 2024, [*bioRxiv*](https://doi.org/10.1101/2025.02.07.637118)
