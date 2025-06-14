@@ -5,16 +5,22 @@ layout: default
 
 
 # Technical Skills
-## Programming
-#### Languages
+#### Programming Languages
 - Python
 - bash
 - Matlab
 - R
 
-#### Tools
+#### Programming Tools
 - VS Code
 - git
 - Docker
+- pytorch
+
+#### Statistical and ML Tools
+- InfoMap
+- Tedana
+- ICAAROMA
+
 
 
