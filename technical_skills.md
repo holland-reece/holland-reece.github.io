@@ -5,22 +5,25 @@ layout: default
 
 
 # Technical Skills
+
 #### Programming Languages
 - Python
+- SQL
 - bash
-- Matlab
 - R
+- Matlab
 
-#### Programming Tools
+#### Tools/Platforms
 - VS Code
+- MySQLWorkbench
+- R Studio
+- Jupyter
 - git
 - Docker
 - pytorch
-
-#### Statistical and ML Tools
-- InfoMap
-- Tedana
-- ICAAROMA
+- Google Colab
+- AWS (cloud computing)
+- spack, slurm (GPU cluster management)
 
 
 
