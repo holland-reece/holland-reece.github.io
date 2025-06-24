@@ -36,6 +36,7 @@ class clean_clin_data:
 ```
 
 - As new data is collected, it is crucial to keep data organized and standardized in real time. Here is a snippet of SQL code I wrote to automate data organization (if a new row is added in one table, a corresponding table is automatically updated).
+
 ````SQL
 DELIMITER $$
 CREATE TRIGGER patient_insert # name trigger
@@ -49,6 +50,7 @@ DELIMITER ;
 ````
 
 - One of the first things I do when I clean and preprocess a raw dataset is check for duplicate data. Here is an example of how I might check for duplicate rows in a raw data table in SQL.
+
 ````SQL
 # Create CTE containing query above and filter for row_num > 1
 WITH duplicate_cte AS
@@ -68,6 +70,7 @@ WHERE row_num > 1; # if row number is > 1, there may be duplicates
 
 ## Statistics and Machine Learning Methods
 - Statistical models for behavioral experiments can get complex, so it's crucial to work with team members and pool domain knowledge to build models correctly. Here is sample of a *mixed effect linear model for repeated measures* I built (in R) for a study of sickness behavior, collaborating with psychoneuroimmunologists at Stockholm University.
+
 ```R
 # Step 1: Fit Mixed-Effects Model (use from prev code block)
 #df1 <- merged_exteWQ2 # exteroception questions
@@ -100,6 +103,7 @@ pred_data$pred <- predict(model, newdata = pred_data, re.form = NA)  # re.form =
 ```
 
 - Deep learning algorithms elucidate patterns we can't see on our own, but sometimes a simple regression accomplishes analysis goals best. In a machine learning course, I built and trained *lasso and ridge regression models using k-fold cross validation and forward feature selection* on a publicly available dataset (in Python, Jupyter notebook). I used area under the ROC curve and confusion matrices to choose optimal parameters and understand the performance of each model.
+
 ```python
 # Use ROC curve to test best threshold for lambda
 fpr, tpr, thresholds = metrics.roc_curve(y_test, pred, pos_label=1)
@@ -110,6 +114,7 @@ print(f"Area Under ROC Curve: {roc_auc_score(y_test, prob[:,1], multi_class='ovr
 ```
 
 - For those times when deep learning is the best approach to understanding underlying patterns and finding new embeddings, here is a snippet of code from a *neural network I trained on a repository of medical images* (in Python using Google Colab and AWS).
+
 ```python
 model.summary()
 
