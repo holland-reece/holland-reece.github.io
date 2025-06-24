@@ -8,9 +8,7 @@ layout: default
 
 [Big Data Analytics](#big-data-analytics)
 
-[Statistics and Machine Learning Methods](statistics-and-machine-learning-methods)
-
-[Adapting Published Open-Source Tools](adapting-published-open-source-tools)
+[Statistics and Machine Learning Methods](#statistics-and-machine-learning-methods)
 
 
 ## Big Data Analytics
@@ -38,7 +36,7 @@ class clean_clin_data:
 ```
 
 - As new data is collected, it is crucial to keep data organized and standardized in real time. Here is a snippet of SQL code I wrote to automate data organization (if a new row is added in one table, a corresponding table is automatically updated).
-```sql
+````SQL
 DELIMITER $$
 CREATE TRIGGER patient_insert # name trigger
 	AFTER INSERT ON patient_record # trigger event (if this happens, run the Event)
@@ -48,10 +46,10 @@ BEGIN # This executes if above triggering event happens
     VALUES(NEW.patient_id, NEW.first_name, NEW.last_name); # use NEW or OLD to only refer to new inserted data or only old data
 END $$
 DELIMITER ;
-```
+````
 
 - One of the first things I do when I clean and preprocess a raw dataset is check for duplicate data. Here is an example of how I might check for duplicate rows in a raw data table in SQL.
-```sql
+````SQL
 # Create CTE containing query above and filter for row_num > 1
 WITH duplicate_cte AS
 (
@@ -60,17 +58,17 @@ ROW_NUMBER() OVER(
 PARTITION BY company, location,
 industry, total_laid_off, percentage_laid_off, `date`
 ) AS row_num # use backticks for date bc it is a SQL keyword
-FROM layoffs_staging # Of course, use the 'staging' version of the table (I don't directly work with the raw file)
+FROM layoffs_staging # use the 'staging' version of the table
 )
 SELECT *
 FROM duplicate_cte
 WHERE row_num > 1; # if row number is > 1, there may be duplicates
-```
+````
 
 
 ## Statistics and Machine Learning Methods
 - Statistical models for behavioral experiments can get complex, so it's crucial to work with team members and pool domain knowledge to build models correctly. Here is sample of a *mixed effect linear model for repeated measures* I built (in R) for a study of sickness behavior, collaborating with psychoneuroimmunologists at Stockholm University.
-```r
+```R
 # Step 1: Fit Mixed-Effects Model (use from prev code block)
 #df1 <- merged_exteWQ2 # exteroception questions
 df1 <- merged_interBQ2 # interoception questions
@@ -108,7 +106,7 @@ fpr, tpr, thresholds = metrics.roc_curve(y_test, pred, pos_label=1)
 print(f"False Positive Rates (Specificity): {fpr}\nTrue Positive Rates (Sensitivity): {tpr}\nThresholds: {thresholds}\n")
 print(f"Area Under ROC Curve: {roc_auc_score(y_test, prob[:,1], multi_class='ovr')}\n")
 
-# Based on the area under the ROC curve in this example, the optimal value for lambda = 
+# Based on the area under the ROC curve in this example, the optimal value for lambda=1 
 ```
 
 - For those times when deep learning is the best approach to understanding underlying patterns and finding new embeddings, here is a snippet of code from a *neural network I trained on a repository of medical images* (in Python using Google Colab and AWS).
@@ -133,7 +131,4 @@ model.fit(x_train_small, y_train_small_onehot,epochs=5)
 y_test_onehot = to_categorical(y_test)
 model.evaluate(x_test,y_test_onehot,verbose=2)
 ```
-
-## Adapting Published Open-Source Tools
-- fmri preproc pipeline for Akili project
 
