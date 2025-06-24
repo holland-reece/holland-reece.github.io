@@ -14,6 +14,7 @@ layout: default
 ## Big Data Analytics
 
 - Working with big data can involve cross-referencing many sources to get an accurate picture of the dataset as a whole. Here is a truncated example of a Python class I wrote to organize and clean data from the Swedish population registry, InternetPsykiatri mental health records (XML format), and internal study spreadsheets (XLSX format) at Karolinska Institutet in Sweden. [TreVar study GitHub repo](https://github.com/holland-reece/TreVar/tree/main)
+
 ```python
 class clean_clin_data:
 
@@ -37,7 +38,7 @@ class clean_clin_data:
 
 - As new data is collected, it is crucial to keep data organized and standardized in real time. Here is a snippet of SQL code I wrote to automate data organization (if a new row is added in one table, a corresponding table is automatically updated).
 
-````SQL
+````sql
 DELIMITER $$
 CREATE TRIGGER patient_insert # name trigger
 	AFTER INSERT ON patient_record # trigger event (if this happens, run the Event)
@@ -51,7 +52,7 @@ DELIMITER ;
 
 - One of the first things I do when I clean and preprocess a raw dataset is check for duplicate data. Here is an example of how I might check for duplicate rows in a raw data table in SQL.
 
-````SQL
+````sql
 # Create CTE containing query above and filter for row_num > 1
 WITH duplicate_cte AS
 (
