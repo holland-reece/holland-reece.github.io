@@ -22,7 +22,7 @@ layout: default
 - Docker
 - pytorch
 - Google Colab
-- AWS (cloud computing)
+- AWS, Microsoft Azure (cloud computing)
 - spack, slurm (GPU cluster management)
 
 
