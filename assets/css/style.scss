@@ -34,13 +34,13 @@ a { color: #958FCF; }
   color: #7D091E;
 }
 
-/* Ensure links inside headings also match */
+/* Ensure links inside headings also match new palette */
 .main-content h1 a,
 .main-content h2 a,
 .main-content h3 a,
 .main-content h4 a,
 .main-content h5 a,
 .main-content h6 a {
-  color: inherit;
+  color: #958FCF;
   text-decoration: none;
 }
