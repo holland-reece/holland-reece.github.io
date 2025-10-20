@@ -1,7 +1,7 @@
 ---
 ---
 
+$background-color: #7E90CC;        // top gradient color (light blue)
+$background-color-secondary: #958FCF; // bottom gradient color (light purple)
+
 @import "{{ site.theme }}";
-code {
-  white-space : pre-wrap !important;
-}
