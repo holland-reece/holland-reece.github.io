@@ -3,10 +3,8 @@ title: Holland Reece Brown
 layout: default
 ---
 
-## About Me
-__*Data Engineer | ML Systems, ETL, & Scalable Data Pipelines | SQL • Python • Airflow • Cloud • Analytics*__
-Data Engineer with 3+ years of experience designing _scalable ETL pipelines_ and __designing hybrid on-premises/cloud data 
-infrastructure__. Skilled in __Python, SQL, Airflow, dbt, cloud platforms (GCP, AWS, Azure)__.
+## Intro
+My name is Holland and I'm a data engineer/analyst with experience in hybrid cloud/on-prem infra, platform engineering, ML Ops, statistical data analysis and data visualization in medical research. I'm looking for opportunities to apply my skills in the private sector. I'll be posting about my ongoing projects and current events in data engineering [here](https://holland-reece.github.io/blog.html). If you'd like to know more about me, you can look [here](https://holland-reece.github.io/about_me.html).
 
 ## Recent Blog Posts
 
