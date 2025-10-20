@@ -25,7 +25,6 @@ If you’re interested in how data engineering can turn messy scraped data into 
 - Includes unit tests and a modular design for reproducibility
 
 ## 🧰 Tech Stack
-```
 | Layer                  | Tools / Technologies                   |
 | ---------------------- | -------------------------------------- |
 | Data Storage           | MySQL                                  |
@@ -37,19 +36,16 @@ If you’re interested in how data engineering can turn messy scraped data into 
 | Layer                   | Tools / Technologies                  |
 | Visualization (planned) | Dash / Plotly                         |
 | Orchestration (planned) | Apache Airflow                        |
-```
 
 ## 🏗️ Project Architecture
 The pipeline is divided into __two main stages__:
 
 ### Part 1: Ingestion Layer
-```
 | Output Table                                      | Description |
 |---------------------------------------------------| ----------- |
 | `position_current` | Latest positions per user derived from historical scrape data.        | 
 | `individual_position` | Enriched position data joined with standardized location and company IDs.
 | `transition_unique_base` | User-level job transitions with “previous” and “new” position details.
-```
 
 __Key transformations are written in SQL and/or Python (MySQL connector), focusing on:__
 - Deduplication of scrape histories
