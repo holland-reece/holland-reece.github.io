@@ -10,7 +10,7 @@ code {
 
 /* override the header background gradient colors */
 .page-header {
-  background-image: linear-gradient(120deg, #958FCF, #7D091E);
+  background-image: linear-gradient(120deg, #7D091E, #958FCF);
 }
 
 /* tweak buttons/links to match the palette */
@@ -22,3 +22,8 @@ code {
   filter: brightness(0.95);
 }
 a { color: #958FCF; }
+
+/* Change heading colors globally */
+h1, h2, h3, h4 {
+  color: #7D091E;
+}

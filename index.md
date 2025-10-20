@@ -3,7 +3,7 @@ title: Holland Reece Brown
 layout: default
 ---
 
-# Creative Solutions to Data Science Problems
+# Data Engineer | ML Systems, ETL, & Scalable Data Pipelines | SQL • Python • Airflow • Cloud • Analytics
 I am a detail-oriented data scientist with expertise in **_inferential statistics, applied AI, and computer vision_**. My experience in academic and medical research includes analyzing **_high dimensional, multimodal datasets_** from a wide range of data sources and structures, projecting study outcomes using **_Bayesian statistical methods_**, building on **_cutting-edge open source tools_** to solve unique data science problems and translating findings into **_actionable insights_** for both technical and non-technical audiences.
 
 ## Career Highlights
