@@ -1,21 +1,20 @@
 ---
 ---
 
-/* If you also want the base theme styles, import them first */
+/* import base theme style */
 @import "{{ site.theme }}" ;
 
-/* Now override the header background gradient */
+/* override the header background gradient colors */
 .page-header {
-  /* pick your two colors here */
-  background-image: linear-gradient(120deg, #7E90CC, #958FCF);
+  background-image: linear-gradient(120deg, #958FCF, #7D091E);
 }
 
-/* Optional: tweak buttons/links to match the palette */
+/* tweak buttons/links to match the palette */
 .btn {
-  $background-color: #7E90CC;        // top gradient color (light blue)
-  $background-color-secondary: #958FCF; // bottom gradient color (light purple)
+  $background-color: #958FCF;
+  $background-color-secondary: #7D091E;
 }
 .btn:hover, .btn:focus {
   filter: brightness(0.95);
 }
-a { color: #7E90CC; }
+a { color: #958FCF; }
