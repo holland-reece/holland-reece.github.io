@@ -4,7 +4,7 @@ layout: default
 ---
 
 
-# Data Science Portfolio
+# Projects
 
 [Big Data Analytics](#big-data-analytics)
 

@@ -6,8 +6,8 @@ logo: /images/profile_pic.jpeg
 description: >
   <p>
     <a href="index.html" class="btn">Home</a>
-    <a href="technical_skills.html" class="btn">Tech Stack</a>
-    <a href="data_science_skills.html" class="btn">Projects</a>
+    <a href="tech_stack.html" class="btn">Tech Stack</a>
+    <a href="projects.html" class="btn">Projects</a>
     <a href="blog.html" class="btn">Blog</a>
     <a href="https://www.linkedin.com/in/holland-reece-brown-9bb719263" class="btn">LinkedIn</a>
   </p>
