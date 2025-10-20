@@ -31,7 +31,7 @@ infrastructure__. Skilled in __Python, SQL, Airflow, dbt, cloud platforms (GCP, 
 <p class="more">
   <a class="btn"
         href="{{ "/blog" | relative_url }}"
-        style="background-color:#ff6600; border-color:#958FCF; color:#958FCF;">
+        style="background-color:#FFFFFF; border-color:#958FCF; color:#958FCF;">
     View all posts →
   </a>
 </p>
