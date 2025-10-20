@@ -22,3 +22,26 @@ infrastructure__. Skilled in __Python, SQL, Airflow, dbt, cloud platforms (GCP, 
 *Established scalable data infrastructure and developed ETL pipelines to process and analyze brain imaging data to inform app development to treat anxiety and depression*
 - Weill Cornell Medicine, Institute for Developmental Psychobiology, New York, NY
 - January 2023 - June 2024
+
+## Recent posts
+
+{% assign recent_posts = site.posts | where_exp: "p", "p.draft != true" | slice: 0, 3 %}
+
+<div class="post-cards">
+  {% for post in recent_posts %}
+  <a class="post-card" href="{{ post.url | relative_url }}">
+    <div class="thumb"
+         style="background-image:url('{{ post.thumbnail | default: "/assets/images/default-thumb.jpg" | relative_url }}');">
+    </div>
+    <div class="meta">
+      <h3>{{ post.title }}</h3>
+      <p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
+      <p class="excerpt">{{ post.excerpt | strip_html | truncate: 110 }}</p>
+    </div>
+  </a>
+  {% endfor %}
+</div>
+
+<p class="more">
+  <a class="btn" href="{{ "/blog" | relative_url }}">View all posts →</a>
+</p>
