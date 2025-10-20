@@ -7,9 +7,9 @@ layout: default
 date: 2025-10-20
 ---
 
-Over the past couple of weeks, I’ve been working on a full-fledged data engineering project designed to replicate a production-style data workflow that delivers cleaned, structured data tailored to client specifications.
+Over the past couple of weeks, I’ve been working on a production-style ETL pipeline that delivers cleaned, structured labor market data tailored to client specifications.
 
-This project took all of my skills in infra, database administration, platform design and implementation, and data analytics. It made me re-imagine how these skills can be applied to understanding business concepts like labor market dynamics.
+This project took all of my skills in infra, database administration, platform design and implementation, and data analytics, and made me re-imagine how these skills can be applied to understanding business concepts like labor market dynamics.
 
 👀 I have some exciting expansions planned for the pipeline, too! I’m now extending it with new datasets, dashboards, and Airflow orchestration to make it fully end-to-end.
 
@@ -25,6 +25,7 @@ If you’re interested in how data engineering can turn messy scraped data into 
 - Includes unit tests and a modular design for reproducibility
 
 ## 🧰 Tech Stack
+```
 | Layer                  | Tools / Technologies                   |
 | ---------------------- | -------------------------------------- |
 | Data Storage           | MySQL                                  |
@@ -36,16 +37,19 @@ If you’re interested in how data engineering can turn messy scraped data into 
 | Layer                   | Tools / Technologies                  |
 | Visualization (planned) | Dash / Plotly                         |
 | Orchestration (planned) | Apache Airflow                        |
+```
 
 ## 🏗️ Project Architecture
 The pipeline is divided into __two main stages__:
 
 ### Part 1: Ingestion Layer
+```
 | Output Table                                      | Description |
 |---------------------------------------------------| ----------- |
 | `position_current` | Latest positions per user derived from historical scrape data.        | 
 | `individual_position` | Enriched position data joined with standardized location and company IDs.
 | `transition_unique_base` | User-level job transitions with “previous” and “new” position details.
+```
 
 __Key transformations are written in SQL and/or Python (MySQL connector), focusing on:__
 - Deduplication of scrape histories
