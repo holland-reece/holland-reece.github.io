@@ -1,11 +1,18 @@
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme
-title: Holland Reece Brown
+title: "Holland Reece Brown"
 logo: /images/profile_pic.jpeg
 description: >
-  <p>Professional Website & Data Science Portfolio</p>
-  <p><a href="index.html" class="btn">Home</a></p>
-  <p><a href="technical_skills.html" class="btn">Technical Skills</a></p>
-  <p><a href="data_science_skills.html" class="btn">Data Science Portfolio</a></p>
-  <p><a href="https://www.linkedin.com/in/holland-reece-brown-9bb719263" class="btn">LinkedIn</a></p>
+  <p>
+    <a href="index.html" class="btn">Home</a>
+    <a href="technical_skills.html" class="btn">Tech Stack</a>
+    <a href="data_science_skills.html" class="btn">Projects</a>
+    <a href="blog.html" class="btn">Blog</a>
+    <a href="https://www.linkedin.com/in/holland-reece-brown-9bb719263" class="btn">LinkedIn</a>
+  </p>
+collections:
+  articles:
+    output: true
+    permalink: /blog/:name/
+excerpt_separator: "<!--more-->"

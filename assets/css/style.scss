@@ -4,6 +4,10 @@
 /* import base theme style */
 @import "{{ site.theme }}" ;
 
+code {
+  white-space : pre-wrap !important;
+}
+
 /* override the header background gradient colors */
 .page-header {
   background-image: linear-gradient(120deg, #958FCF, #7D091E);
