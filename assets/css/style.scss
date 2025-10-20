@@ -23,7 +23,24 @@ code {
 }
 a { color: #958FCF; }
 
-/* Change heading colors globally */
-h1, h2, h3, h4 {
+
+/* Page body headings (markdown content inside pages like index.md) */
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
   color: #7D091E;
+}
+
+/* Ensure links inside headings also match */
+.main-content h1 a,
+.main-content h2 a,
+.main-content h3 a,
+.main-content h4 a,
+.main-content h5 a,
+.main-content h6 a {
+  color: inherit;
+  text-decoration: none;
 }
