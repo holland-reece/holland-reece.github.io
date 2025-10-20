@@ -1,4 +1,11 @@
-# TalentFlow – Part 1: An ETL Pipeline for Web-scraped Labor Market Data
+---
+title: "TalentFlow - Part 1: An ETL Pipeline for Web-scraped Labor Market Data"
+author: Holland Brown
+description: "Delivering Cleaned, Structured Data with a Fully End-to-End Pipeline"
+# image: https://holland-reece.github.io/assets/images/articles/density-clustering-pt1/wikimedia/Nytaxis.png
+layout: default
+date: 2025-10-20
+---
 
 Over the past couple of weeks, I’ve been working on a full-fledged data engineering project designed to replicate a production-style data workflow that delivers cleaned, structured data tailored to client specifications.
 
