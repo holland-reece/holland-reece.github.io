@@ -2,7 +2,7 @@ remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme
 title: "Holland Reece Brown"
-logo: /images/profile_pic.jpeg
+logo: assets/images/profile_pic.jpeg
 description: >
   <p>
     <a href="index.html" class="btn">Home</a>
