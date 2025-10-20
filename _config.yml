@@ -8,8 +8,8 @@ description: >
     <a href="index.html" class="btn">Home</a>
     <a href="about_me.html" class="btn">About Me</a>
     <a href="tech_stack.html" class="btn">Tech Stack</a>
-    <a href="projects.html" class="btn">Projects</a>
     <a href="blog.html" class="btn">Blog</a>
+    <a href="https://github.com/holland-reece" class="btn">GitHub</a>
     <a href="https://www.linkedin.com/in/holland-reece-brown-9bb719263" class="btn">LinkedIn</a>
   </p>
 collections:
