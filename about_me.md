@@ -5,9 +5,9 @@ layout: default
 
 ### __Hi! I'm Holland.__
 
-<img src="/assets/images/chatgpt_cartoon_me_v3.png" alt="Cartoon Me re:Cas from 'Bee and Puppycat'" width="300" style="border-radius: 12px; float: left; margin: 0 0 1em 1em;">
+<img src="/assets/images/chatgpt_cartoon_me_v3.png" alt="Cartoon Me re:Cas from 'Bee and Puppycat'" width="300" style="border-radius: 12px; float: right; margin: 0 0 1em 1em;">
 
-Hi! I’m Holland, a data engineer and analyst with 3+ years of experience designing infrastructure, building data pipelines, training machine learning models, and leading statistical analyses for medical and psychology research teams. I got into data engineering because I love building things people trust and use every day.
+Hi! I’m Holland, a data engineer and analyst with 3+ years of experience designing infrastructure, building data pipelines, training machine learning models, and leading statistical analyses for medical and psychology research teams. I got into data engineering because I love to build things people trust and use every day.
 
 I earned my B.S. in Computational Methods and Cognitive Science, two disciplines I chose for their power to explain human decision-making, from mental healthcare to economic behavior. I later expanded my foundation in Python, inferential statistics, and behavioral data analysis with graduate coursework in applied machine learning at Cornell University.
 
