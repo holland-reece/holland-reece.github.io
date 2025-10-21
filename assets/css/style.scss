@@ -8,6 +8,24 @@ code {
   white-space : pre-wrap !important;
 }
 
+
+/* === Profile image in banner === */
+.banner-profile {
+  text-align: center;
+  margin-top: -100px; /* adjust to move up into the header area */
+  position: relative;
+  z-index: 2;
+}
+
+.banner-profile .profile-pic {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
 /* override the header background gradient colors */
 .page-header {
   background-image: linear-gradient(120deg, #7D091E, #958FCF);
