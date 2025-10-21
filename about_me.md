@@ -3,7 +3,7 @@ title: About Me
 layout: default
 ---
 
-### __Hi! I'm Holland.__
+### __Hi, I'm Holland!__
 
 <img src="/assets/images/chatgpt_cartoon_me_v3.png" alt="Cartoon Me re:Cas from 'Bee and Puppycat'" width="300" style="border-radius: 12px; float: right; margin: 0 0 1em 1em;">
 
