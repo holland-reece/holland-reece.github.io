@@ -3,6 +3,8 @@ title: About Me
 layout: default
 ---
 
+<img src="/assets/images/chatgpt_cartoon_me_v3" alt="Cartoon Me re:Cas from 'Bee and Puppycat'" width="300" style="border-radius: 12px; float: right; margin: 0 0 1em 1em;">
+
 I'm a data engineer and data analyst with 3+ years of experience designing infrastructure, building data pipelines, training and delivering ML models, and leading statistical data analysis for medical research teams. I've often worked at the intersection of many multidiscipinary teams, and I specialize in building systems that make evolving digital tools accessible and highly available for every team's needs.
 
 I have a Bachelor of Science in Computational Methods and Cognitive Science, two areas of focus I chose for their utility in characterizing human decision-making in everything from mental healthcare to economic markets. I complimented these Python programming, inferential stats, and behavioral psychology chops with engineering and AI, completing Master's coursework in applied machine learning for medical imaging at Cornell University.
