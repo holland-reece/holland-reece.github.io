@@ -1,8 +1,7 @@
 ---
-title: Holland Reece Brown
+title: Tech Stack
 layout: default
 ---
-
 
 # Tech Stack
 
