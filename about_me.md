@@ -3,7 +3,7 @@ title: About Me
 layout: default
 ---
 
-<img src="/assets/images/chatgpt_cartoon_me_v3" alt="Cartoon Me re:Cas from 'Bee and Puppycat'" width="300" style="border-radius: 12px; float: right; margin: 0 0 1em 1em;">
+<img src="/assets/images/chatgpt_cartoon_me_v3.png" alt="Cartoon Me re:Cas from 'Bee and Puppycat'" width="300" style="border-radius: 12px; float: right; margin: 0 0 1em 1em;">
 
 Hi! I’m Holland, a data engineer and analyst with 3+ years of experience designing infrastructure, building data pipelines, training machine learning models, and leading statistical analyses for medical and psychology research teams. I got into data engineering because I love building things people trust and use every day.
 
