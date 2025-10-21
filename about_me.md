@@ -17,4 +17,4 @@ As I transition from research into the private sector, I’m excited to share my
 
 __*Data engineering is about more than keeping the lights on — it’s about helping people trust their tools when it matters most.*__
 
-<img src="/assets/images/chatgpt_cartoon_me_v3.png" alt="Cartoon Me re:Cas from 'Bee and Puppycat'" width="300" style="border-radius: 12px; float: right; margin: 0 0 1em 1em;">
+<img src="/assets/images/chatgpt_cartoon_me_v3.png" alt="Cartoon Me re:Cas from 'Bee and Puppycat'" width="300" style="border-radius: 12px; float: center; margin: 0 0 1em 1em;">
